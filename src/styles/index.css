@@ -2,6 +2,8 @@
 
 html {
   --cyan: hsl(179, 62%, 43%);
+  --lighter-cyan: hsl(179, 41%, 53%);
+  --lightest-cyan: hsl(178, 63%, 77%);
   --bright-yellow: hsl(71, 73%, 54%);
   --light-gray: hsl(204, 43%, 93%);
   --grayish-blue: hsl(218, 22%, 67%);

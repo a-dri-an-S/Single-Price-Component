@@ -1,0 +1,25 @@
+.card-community-title {
+    color: var(--cyan);
+}
+.card-community-guarantee {
+    color: var(--bright-yellow)
+}
+.card-community-description {
+    color: var(--grayish-blue);
+}
+
+@media only screen and (max-width: 375px) {
+    .card-community-section {
+        padding: 20px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .card-community-title {
+        font-size: 20px;
+    }
+    .card-community-guarantee {
+        color: var(--bright-yellow)
+    }
+    .card-community-description {
+        line-height: 28px;
+    }
+}

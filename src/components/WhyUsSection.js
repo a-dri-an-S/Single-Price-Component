@@ -1,3 +1,5 @@
+import "../styles/WhyUsSection.css";
+
 const WhyUsSection = () => {
     return (
         <section className="card-why-section">

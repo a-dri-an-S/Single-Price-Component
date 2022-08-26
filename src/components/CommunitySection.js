@@ -1,3 +1,5 @@
+import "../styles/CommunitySection.css";
+
 const CommunitySection = () => {
     return (
         <section className="card-community-section">

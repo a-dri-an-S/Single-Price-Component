@@ -1,0 +1,22 @@
+.card-why-section {
+    background-color: var(--lighter-cyan);
+    border: 1px solid var(--lighter-cyan)
+}
+.card-why-title {
+    color: var(--light-gray)
+}
+.card-why-description {
+    color: var(--lightest-cyan)
+}
+@media only screen and (max-width: 375px) {
+    .card-why-section {
+        padding: 20px;
+        border-radius: 0px 0px 8px 8px;
+    }
+    .card-why-title {
+        font-size: 20px;
+    }
+    .card-why-description {
+        line-height: 20px;
+    }
+}

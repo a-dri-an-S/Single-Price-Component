@@ -1,3 +1,5 @@
+import "../styles/SubscriptionSection.css"
+
 const SubscriptionSection = () => {
     return (
         <section className="card-subscription-section">
