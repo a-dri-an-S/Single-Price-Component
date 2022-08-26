@@ -17,9 +17,40 @@
         font-size: 20px;
     }
     .card-community-guarantee {
-        color: var(--bright-yellow)
+        font-size: 18px;
     }
     .card-community-description {
         line-height: 28px;
+    }
+}
+@media only screen and (min-width: 376px) {
+    .card-community-section {
+        padding: 20px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .card-community-title {
+        font-size: 20px;
+    }
+    .card-community-guarantee {
+        font-size: 18px;
+    }
+    .card-community-description {
+        line-height: 28px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .card-community-section {
+        padding: 40px;
+    }
+    .card-community-title {
+        font-size: 28px;
+    }
+    .card-community-guarantee {
+        font-size: 22px;
+        width: 400px;
+    }
+    .card-community-description {
+        font-size: 18px;
+        line-height: 36px;
     }
 }

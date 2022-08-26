@@ -5,3 +5,16 @@
         box-shadow: 1px 1px 12px 8px rgba(0, 0, 0, 0.158);
     }
 }
+@media only screen and (min-width: 376px)  {
+    .price-card {
+        width: 350px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 12px 8px rgba(0, 0, 0, 0.158);
+    }
+}
+@media only screen and (min-width: 600px)  {
+    .price-card {
+        margin: 60px 0px;
+        width: 550px;
+    }
+}

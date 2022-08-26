@@ -20,3 +20,27 @@
         line-height: 20px;
     }
 }
+@media only screen and (min-width: 376px) {
+    .card-why-section {
+        padding: 20px;
+        border-radius: 0px 0px 8px 8px;
+    }
+    .card-why-title {
+        font-size: 20px;
+    }
+    .card-why-description {
+        line-height: 20px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .card-why-section {
+        padding: 40px;
+    }
+    .card-why-title {
+        font-size: 28px;
+    }
+    .card-why-description {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
