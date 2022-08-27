@@ -33,14 +33,10 @@
     .card-subscription-title {
         font-size: 20px;
     }
-    /* .card-subscription-price {
-    } */
     .card-subscription-price-amount {
         font-size: 36px;
         margin-right:12px;
     }
-    /* .card-subscription-description {
-    } */
     .card-subscription-button {
         margin-top: 30px;
         width: 100%;
@@ -86,6 +82,33 @@
     }
     .card-subscription-description {
         font-size: 18px;
+    }
+    .card-subscription-button {
+        margin-top: 40px;
+        width: 100%;
+        height: 68px;
+        font-size: 24px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .card-subscription-section {
+        padding: 50px 40px;
+        width: 370px;
+        height: 262px;
+        border-radius: 0px 0px 0px 8px
+    }
+    .card-subscription-title {
+        font-size: 28px;
+    }
+    .card-subscription-price {
+        font-size: 18px;
+    }
+    .card-subscription-price-amount {
+        font-size: 48px;
+        margin-right:12px;
+    }
+    .card-subscription-description {
+        font-size: 24px;
     }
     .card-subscription-button {
         margin-top: 40px;

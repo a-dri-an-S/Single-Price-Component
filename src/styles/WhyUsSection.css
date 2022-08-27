@@ -44,3 +44,19 @@
         line-height: 28px;
     }
 }
+@media only screen and (min-width: 992px) {
+    .card-why-section {
+        padding: 50px 40px;
+        width: 368px;
+        height: 260px;
+        border-radius: 0px 0px 8px 0px;
+    }
+    .card-why-title {
+        margin: 0px;
+        font-size: 28px;
+    }
+    .card-why-description {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

@@ -54,3 +54,22 @@
         line-height: 36px;
     }
 }
+@media only screen and (min-width: 992px) {
+    .card-community-section {
+        padding: 30px 50px;
+    }
+    .card-community-title {
+        font-size: 36px;
+    }
+    .card-community-guarantee {
+        font-size: 28px;
+        width: 100%;
+    }
+    .card-community-description {
+        font-size: 22px;
+        line-height: 36px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+
+}

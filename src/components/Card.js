@@ -7,9 +7,15 @@ import "../styles/Card.css";
 const Card = () => {
     return (
         <main className="price-card">
-            <CommunitySection />
-            <SubscriptionSection />
-            <WhyUsSection />
+            <div className="card-grid-1">
+                <CommunitySection />
+            </div>
+            <div className="card-grid-2">
+                <SubscriptionSection />
+            </div>
+            <div className="card-grid-3">
+                <WhyUsSection />
+            </div>
         </main>
     );
 }
